@@ -13,5 +13,5 @@ values = list(y)
 fig, axs = plt.subplots(1, 6, figsize=(15, 3), sharey=True)
 horizontal_stack = pd.concat([x, y], axis=1)
 dataframe.plot(kind='bar' , x='Name')
-
+plt.savefig('plot.png')
 
