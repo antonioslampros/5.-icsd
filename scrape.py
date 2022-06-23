@@ -35,7 +35,7 @@ def getMarketCapAndVol(links):
     })
             #df2 = pd.DataFrame(name)
     print(df2)
-        
+    print("Saved file with name: output.xlsx")    
     df2.to_excel("output.xlsx")
     
 
